@@ -17,3 +17,5 @@ set mouse=a			"mouse supporting
 set showtabline=3
 set autoindent
 set foldcolumn=1
+
+set listchars=tab:▸·,eol:¬,precedes:«,extends:»
