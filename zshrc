@@ -1,9 +1,7 @@
-
-
 if [[ -n "$SSH_CLIENT" || -n "$SSH2_CLIENT" ]]; then
         if [[ $EUID == 0 ]]; then
                 PROMPT="%B%F{red}%~>%f%b"
-                RPROMPT="%F{red}%U%n@%m%u%f"
+                RPROMPT="%F{red}%B%U%n@%m%u%b%f"
         else
                 PROMPT="%B%F{cyan}%~>%f%b"
                 RPROMPT="%F{green}%U%n@%m%u%f"
@@ -11,7 +9,7 @@ if [[ -n "$SSH_CLIENT" || -n "$SSH2_CLIENT" ]]; then
 else
         if [[ $EUID == 0 ]]; then
                 PROMPT="%B%F{red}%~>%f%b"
-                RPROMPT="%F{red}%n@%m%f"
+                RPROMPT="%F{red}%B%n@%m%b%f"
         else
                 PROMPT="%B%F{cyan}%~>%f%b"
                 RPROMPT="%F{green}%n@%m%f"
