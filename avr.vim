@@ -1,3 +1,4 @@
+" ~/.vim/syntax/avr.vim
 " micro-patched by ARodin for ATtiny13a
 " e-mail:	rodin_aa@inbox.ru
 		" Vim syntax file
