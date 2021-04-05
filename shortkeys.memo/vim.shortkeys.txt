@@ -14,7 +14,7 @@ H		jump to page head
 0   jump to line first position
 /		input seraching string
 
-x		delete under cursor
+x/X		delete under/before cursor
 u		undo
 c-r		redo
 i/I		inplace inserting/form start pos
