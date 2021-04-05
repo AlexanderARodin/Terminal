@@ -1,0 +1,35 @@
+
+:w		saving
+:w!		input new file name and save to
+:q		quit
+:q!		quit without saving
+:!		input shell command
+hjkl	left/down/up/right
+x		delete under cursor
+u		undo
+c-r		redo
+i/I		inplace inserting/form start pos
+a/A		afterplace appending/from end pos
+w/b		word forward/before
+/		input seraching string
+:№		input line number to jump to
+c-u/c-d	jump page up/down
+r		replace a symbol
+R		edit in replace-mode
+o		append new line and edit
+O		insert new line befor and edit
+G		jump to last line beginig
+H		jump to page head
+p/P		paste after/before cursor
+dd		delete line
+
+
+.		redo last action
+
+tabe <file>		open <file> in new tab
+vsp/sp			vertical/horizontal split
+
+:e <file>				insert <file> in the cursor pos
+:r <file> 			insert <file> in the next line
+:r!<command>		do shell-command and insert output to editor
+
