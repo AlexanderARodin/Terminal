@@ -1,10 +1,8 @@
-
 :w		saving
 :w!<file>		input new file name and save to
 :q		quit
 :q!		quit without saving
 :!<command>		input shell command
-
 hjkl	left/down/up/right
 w/b		word forward/before
 c-u/c-d	jump page up/down
@@ -13,7 +11,6 @@ H		jump to page head
 :№		input line number to jump to
 0   jump to line first position
 /		input seraching string
-
 x/X		delete under/before cursor
 u		undo
 c-r		redo
@@ -25,9 +22,10 @@ o		append new line and edit
 O		insert new line befor and edit
 p/P		paste after/before cursor
 dd		delete line
-
-
 .		redo last action
+
+gg  jump to begin
+
 
 tabe <file>		open <file> in new tab
 vsp/sp			vertical/horizontal split
