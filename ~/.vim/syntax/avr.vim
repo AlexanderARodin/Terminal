@@ -202,6 +202,7 @@ syn keyword avrIOBit    ICNC1 ICES1  CTC1 CS12 CS11 CS10
 syn keyword avrIOBit    PWM2 COM21 COM20 CTC2 CS22 CS21 CS20
 syn keyword avrIOBit    AS2 TCN2UB OCR2UB TCR2UB
 syn keyword avrIOBit    WDTOE WDE WDP2 WDP1 WDP0
+syn keyword avrIOBit    WDCE WDETI WDP3
 syn match avrIOBit      "\<EEAR[0-7]\>"
 syn keyword avrIOBit    EERIE EEMWE EEWE EERE
 syn match avrIOBit      "\<PORT[ABCDEF][0-7]\>"
