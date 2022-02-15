@@ -4,6 +4,7 @@
 :q!		quit without saving
 :!<command>		input shell command
 hjkl	left/down/up/right
+return line down
 w/b		word forward/before
 c-u/c-d	jump page up/down
 G		jump to last line beginig
