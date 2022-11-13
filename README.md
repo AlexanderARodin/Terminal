@@ -8,7 +8,7 @@ zsh, tmux, vim..
 1) pre-basic sequrity
     adduser <someAdmin>
     usermod -aG sudo <someAdmin>
-    >> PermitRootLogin no
+    "PermitRootLogin no"
 2) critical tools
     vim
     mc
