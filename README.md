@@ -14,7 +14,8 @@ zsh, tmux, vim..
     mc
     zsh
     tmux
-3) languges
+3) tools & languges
+    make
     Swift
 
 4) others
