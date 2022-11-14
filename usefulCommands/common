@@ -1,18 +1,18 @@
 
 sudo	apt update
-			apt upgrade
-			apt full-upgrade
-			apt install
+		apt upgrade
+		apt full-upgrade
+		apt install
 
 
 
 
 
-systemctl
-	systemctl status <service>
-	systemctl start <>
-	systemctl stop <>
-	systemctl enable <>
-	systemctl disable <>
-	systemctl --host <user>@<hostIp> <start/stop..> <service>
-	systemctl reboot
+sudo systemctl
+		systemctl status <service>
+		systemctl start <>
+		systemctl stop <>
+		systemctl enable <>
+		systemctl disable <>
+		systemctl --host <user>@<hostIp> <start/stop..> <service>
+		systemctl reboot
