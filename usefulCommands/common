@@ -16,3 +16,4 @@ sudo systemctl
 		systemctl disable <>
 		systemctl --host <user>@<hostIp> <start/stop..> <service>
 		systemctl reboot
+		systemctl is-active <>
