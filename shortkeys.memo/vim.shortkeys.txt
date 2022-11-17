@@ -13,8 +13,6 @@ H		jump to page head
 0   jump to line first position
 /		input seraching string
 x/X		delete under/before cursor
-u		undo
-c-r		redo
 i/I		inplace inserting/form start pos
 a/A		afterplace appending/from end pos
 r		replace a symbol
@@ -30,6 +28,8 @@ p/P	put (paste) after/before cursor
 d		delete (cut) selection
 dd		delete line
 
+u		undo
+c-r	redo
 .		redo last action
 
 gg  jump to begin
