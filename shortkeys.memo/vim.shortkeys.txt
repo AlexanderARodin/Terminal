@@ -21,8 +21,15 @@ r		replace a symbol
 R		edit in replace-mode
 o		append new line and edit
 O		insert new line befor and edit
-p/P		paste after/before cursor
+
+v		visual (selection) mode
+V		line visual (selection) mode
+c-v	block visual (selection) mode
+y		yank (copy)
+p/P	put (paste) after/before cursor
+d		delete (cut) selection
 dd		delete line
+
 .		redo last action
 
 gg  jump to begin
