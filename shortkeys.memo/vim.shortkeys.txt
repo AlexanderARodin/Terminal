@@ -3,6 +3,7 @@
 :q		quit
 :q!		quit without saving
 :!<command>		input shell command
+:r <file.name>	insert from file
 hjkl	left/down/up/right
 return line down
 w/b		word forward/before
