@@ -4,7 +4,7 @@ sudo	apt update
 		apt full-upgrade
 		apt install
 
-
+xrandr --size 1024x768
 
 
 
