@@ -1,19 +1,25 @@
 
 
 -d|--distribution CODENAME
-  defines the distribution of the resulting live system. This currently defaults to 'buster'. The value 'sid' can be used for Debian unstable.
+	defines the distribution of the resulting live system. 
+ 	The value 'sid' can be used for Debian unstable.
+	This currently defaults to 'buster'.
 
 --image-name NAME
-  sets the base name of the image. Defaults to live-image.
+	sets the base name of the image.
+	Defaults to live-image.
 
 --system live|normal
-  defines if the resulting system image should be a live system or a normal, non-live system. Defaults to live.
+	defines if the resulting system image should be a live system or a normal, non-live system.
+	Defaults to live.
 
 --initsystem sysvinit|systemd|none]
-  defines the init system. Defaults to 'systemd'.
+	defines the init system.
+	Defaults to 'systemd'.
 
 --debian-installer-gui true|false
-  defines whether the graphical version of the debian-installer should be provided alongside the text based one. This defaults to true.
+	defines whether the graphical version of the debian-installer should be provided alongside the text based one.
+	Defaults to true.
 
 --clean
   minimizes config directory by automatically removing unused and thus empty subdirectories.
@@ -22,5 +28,7 @@
   turns on color in the messages.
 
 --archive-areas ARCHIVE_AREA|"ARCHIVE_AREAS"
-	defines which package archive areas (a comma or space separated list) of a debian package archive should be used for configured debian package mirrors. By default, this is set to main only. Remember to check the licenses of each package with respect to their redistributability in your juristiction when enabling contrib or non-free with this mechanism.
+	defines which package archive areas (a comma or space separated list) of a debian package archive should be used for configured debian package mirrors.
+	Remember to check the licenses of each package with respect to their redistributability in your juristiction when enabling contrib or non-free with this mechanism.
+	By default, this is set to main only.
 
