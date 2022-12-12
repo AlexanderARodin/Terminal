@@ -23,9 +23,9 @@
 	All available flavours except live are the identical configurations used on the installer media produced by regular debian-cd. When live is chosen, the live-installer udeb is included so that debian-installer will behave different than usual - instead of installing the debian system from packages from the medium or the network, it installs the live system to the disk.
 	By default, no installer is included.
 
---initsystem sysvinit|systemd|none
-	defines the init system.
-	Defaults to 'systemd'.
+--debian-installer-distribution daily|CODENAME
+	defines the distribution where the debian-installer files should be taken out from.
+	Normally, this should be set to the same distribution as the live system. However, sometimes, one wants to use a newer or even daily built installer.
 
 --debian-installer-gui true|false
 	defines whether the graphical version of the debian-installer should be provided alongside the text based one.
@@ -35,4 +35,8 @@
 	defines which package archive areas (a comma or space separated list) of a debian package archive should be used for configured debian package mirrors.
 	Remember to check the licenses of each package with respect to their redistributability in your juristiction when enabling contrib or non-free with this mechanism.
 	By default, this is set to main only.
+
+--initsystem sysvinit|systemd|none
+	defines the init system.
+	Defaults to 'systemd'.
 
