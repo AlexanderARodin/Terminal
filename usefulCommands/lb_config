@@ -1,17 +1,27 @@
 
+--clean
+  minimizes config directory by automatically removing unused and thus empty subdirectories.
+
+--color
+  turns on color in the messages.
+
+--image-name NAME
+	sets the base name of the image.
+	Defaults to live-image.
 
 -d|--distribution CODENAME
 	defines the distribution of the resulting live system. 
  	The value 'sid' can be used for Debian unstable.
 	This currently defaults to 'buster'.
 
---image-name NAME
-	sets the base name of the image.
-	Defaults to live-image.
-
 --system live|normal
 	defines if the resulting system image should be a live system or a normal, non-live system.
 	Defaults to live.
+
+--debian-installer cdrom|netinst|netboot|businesscard|live|none
+	defines which type, if any, of the debian-installer should be included in the resulting binary image.
+	All available flavours except live are the identical configurations used on the installer media produced by regular debian-cd. When live is chosen, the live-installer udeb is included so that debian-installer will behave different than usual - instead of installing the debian system from packages from the medium or the network, it installs the live system to the disk.
+	By default, no installer is included.
 
 --initsystem sysvinit|systemd|none
 	defines the init system.
@@ -20,12 +30,6 @@
 --debian-installer-gui true|false
 	defines whether the graphical version of the debian-installer should be provided alongside the text based one.
 	Defaults to true.
-
---clean
-  minimizes config directory by automatically removing unused and thus empty subdirectories.
-
---color
-  turns on color in the messages.
 
 --archive-areas ARCHIVE_AREA|"ARCHIVE_AREAS"
 	defines which package archive areas (a comma or space separated list) of a debian package archive should be used for configured debian package mirrors.
