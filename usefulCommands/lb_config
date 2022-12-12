@@ -14,10 +14,6 @@
  	The value 'sid' can be used for Debian unstable.
 	This currently defaults to 'buster'.
 
---system live|normal
-	defines if the resulting system image should be a live system or a normal, non-live system.
-	Defaults to live.
-
 --debian-installer cdrom|netinst|netboot|businesscard|live|none
 	defines which type, if any, of the debian-installer should be included in the resulting binary image.
 	All available flavours except live are the identical configurations used on the installer media produced by regular debian-cd. When live is chosen, the live-installer udeb is included so that debian-installer will behave different than usual - instead of installing the debian system from packages from the medium or the network, it installs the live system to the disk.
@@ -36,7 +32,12 @@
 	Remember to check the licenses of each package with respect to their redistributability in your juristiction when enabling contrib or non-free with this mechanism.
 	By default, this is set to main only.
 
+
 --initsystem sysvinit|systemd|none
 	defines the init system.
 	Defaults to 'systemd'.
+
+--system live|normal
+	defines if the resulting system image should be a live system or a normal, non-live system.
+	Defaults to live.
 
