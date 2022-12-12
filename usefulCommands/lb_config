@@ -32,6 +32,10 @@
 	Remember to check the licenses of each package with respect to their redistributability in your juristiction when enabling contrib or non-free with this mechanism.
 	By default, this is set to main only.
 
+--debootstrap-options OPTION|"OPTIONS"
+	passes the given options to debootstrap when setting up the base system.
+	example: "--variant=minbase"
+
 
 --initsystem sysvinit|systemd|none
 	defines the init system.
