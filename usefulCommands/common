@@ -17,3 +17,6 @@ sudo systemctl
 		systemctl --host <user>@<hostIp> <start/stop..> <service>
 		systemctl reboot
 		systemctl is-active <>
+
+sudo grub-install /dev/sda --recheck  --root-directory=/mnt/SSD
+
