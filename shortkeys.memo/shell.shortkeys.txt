@@ -1,0 +1,12 @@
+
+^J		enter
+^Z		go-background
+^C		interrupt (normally)
+^/		interrupt (abort)
+^D		end entering (close session)
+
+^L		clear
+^H		BackSpace
+^W		'Back'Word
+^U		'Back'All
+^R   history search
