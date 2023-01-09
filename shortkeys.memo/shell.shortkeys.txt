@@ -9,4 +9,4 @@
 ^H		BackSpace
 ^W		'Back'Word
 ^U		'Back'All
-^R   history search
+^R		history search
