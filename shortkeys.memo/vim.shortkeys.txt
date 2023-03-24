@@ -43,3 +43,6 @@ vsp/sp			vertical/horizontal split
 :r <file> 			insert <file> in the next line
 :r!<command>		do shell-command and insert output to editor
 
+*	serach current word
+n/N	search next/prev word
+/	edit searching pattern
